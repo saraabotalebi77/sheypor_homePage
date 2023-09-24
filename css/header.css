@@ -1,0 +1,47 @@
+.header{
+    border-top : 2px solid var(--blue);
+}
+.menu--item:not(:nth-child(5)){
+    margin-left : 2rem;
+}
+.chat-svg{
+    transition : fill 0.3s;
+}
+.menu--item:last-child>.menu--link:hover .chat-svg{ 
+    fill : var(--text-color--hover);
+}
+.support-menu,
+.my-account-menu{
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,.2);
+}
+.support-menu{
+    width : 100px;
+    right: 0;
+    top : 2.5rem;
+}
+.my-account-menu{
+    width : 120px;
+    left :0rem;
+    z-index :2;
+}
+.support-menu--link,
+.my-account-menu--link{
+    padding : 0.8rem;
+}
+.my-account-menu--item:first-child{
+    border-bottom : 1px solid var(--gray-05);
+}
+.menu--item:nth-child(2):hover .support-menu,
+.menu--item:nth-child(5):hover  .my-account-menu{
+    display: block;
+}
+.advertisement-registration-btn{
+    color: #fff;
+    padding : 0.5rem 1.5rem 1rem;
+}
+.advertisement-registration-btn:hover{
+    box-shadow: 1px 1px 4px rgba(0,0,0,.5);
+}
+.advertisement-registration-btn > .plus-icon{
+    top : 0.5rem;
+}

@@ -1,0 +1,273 @@
+@media only screen and (max-width:992px){
+    .d-block-992px{
+        display: block;
+    }
+    .d-none-992px{
+        display : none;
+    }
+    .category-menu--item-with-subset-menu>div{
+        padding: 0;
+    }
+    .category-menu--item{
+        width : calc(calc(100% /5) - 8px) !important;
+        height : 9rem !important;
+        margin-left : 1rem !important;
+        margin-bottom : 1rem;
+        padding : 0.5rem !important;
+    }
+    .category-menu--item-logo{
+        vertical-align: -30px;
+    }
+    .category-menu--item:nth-child(5),
+    .category-menu--item:last-child{
+        margin-left :0 !important;
+    }
+    .category-menu--item-with-subset-menu{
+        height : 100%;
+    }
+    .category-menu--link{
+        text-align :center;
+        height : 100% ;
+    }
+    .category-name{
+        color : var(--gray-02);
+        vertical-align: -30px;
+    }
+    .footer--first-section{
+        padding : 0.5rem 1rem;
+    }
+    .footer--menu-wrapper{
+        width : 100%;
+        overflow: hidden;
+    }
+    .footer--menu-wrapper--title{
+        position : relative;
+        padding-top : 0.5rem;
+        padding-bottom : 0.5rem;
+        margin :0;
+        cursor : pointer;
+    }
+    .footer--menu-wrapper--title::after{
+        content:"";
+        position: absolute;
+        left :1rem;
+        top :35%;
+        width : 0.8rem;
+        height :0.8rem;
+        border-bottom : 2px solid var(--gray-01);
+        border-left : 2px solid var(--gray-01);
+        transform : rotate(-45deg);
+    }
+    .active .footer--menu-wrapper--title::after{
+        transform : rotate(135deg);
+    }
+    .footer--menu{
+        height:0;
+    }
+    .active .footer--menu{
+        height : auto;
+    }
+    .footer--apps-wrapper{
+        white-space: nowrap;
+        overflow: auto;
+    }
+    .footer--app-wrapper{
+        display: inline-block;
+        vertical-align: top;
+       margin : 1rem 0.5rem;
+    }
+    .footer--signs-app-wrapper{
+        direction: rtl;
+        float : none;
+    }
+}
+@media only screen and (max-width:768px){
+    .d-none-768px{
+        display: none;
+    }
+    .d-inline-block-768px{
+        display : inline-block;
+    }
+    .d-block-768px{
+        display : block;
+    }
+    .header{
+        position : fixed;
+        z-index : 2;
+        bottom:0;
+        border : none;
+    }
+    .menu-wrapper{
+        background-color: #fff;
+    }
+    .menu--item:nth-child(5):hover  .my-account-menu{
+        display: none;
+    }
+    .menu--item{
+        width : calc(100%/5);
+        height : 5rem !important;
+        vertical-align: top;
+        margin :0 !important;
+    }
+    .menu--link{
+        padding :0.5rem 0;
+    }
+    .menu--link:hover{
+        color : var(--blue);
+    }
+    .menu--link--icon-wrapper{
+        width : 2rem;
+        height : 2rem;
+    }
+    .chat-svg{
+        fill :var(--gray-02) !important;
+    }
+    .responsive-menu-search-form-wrapper{
+        margin-top : 0;
+        padding : 0.5rem;
+    }
+    .search-form-wrapper,
+    .responsive-menu--menu-icon
+    {
+        background-color:var(--gray-06);
+    }
+    .responsive-menu--menu-icon{
+        width : 3rem;
+        padding-top : 0.75rem;
+        padding-bottom : 0.75rem;
+        border-top-right-radius: 0.5rem;
+        border-bottom-right-radius : 0.5rem;
+    }
+    .search-form-wrapper{
+        width : calc(100% - 30px);
+        border-top-left-radius: 0.5rem;
+        border-bottom-left-radius : 0.5rem;
+    }
+    .search-form--input:not(:placeholder-shown) + .search-form--reset-btn{
+        display: none;
+    }
+    .search-form--input::placeholder{
+        font-size : 1.2rem;
+    }
+    .search-form--input-wrapper:focus-within{
+        box-shadow: none;
+    }
+    .search-form--cities-btn,
+    .search-form--input{
+        background-color: transparent;
+        font-size : 1.3rem
+    }
+    .search-form--cities-btn::after{
+        display: none;
+    }
+    .search-form--cities-btn,
+    .search-form--input-wrapper{
+        border : none;
+        background-color: transparent;
+    }
+    .search-form--input-wrapper{
+        width : auto;
+        width : calc(100% - 87px);
+    }
+    .search-form--cities-btn{
+        float: left;
+        width : auto;
+        padding-left : 0.5rem;
+        padding-right : 0.5rem;
+    }
+    .card-advertisement,
+    .card-advertisement:nth-child(4n){
+        width : calc(calc(100% / 3) - 8px);
+        margin-left : 1.2rem ;
+    }
+    .card-advertisement:nth-child(3n){
+        margin-left :0
+    }
+}
+@media only screen and (max-width:576px){
+    .d-none-576px{
+        display : none;
+    }
+    .d-inline-block-576px{
+        display : inline-block;
+    }
+    .d-block-576px{
+        display : block;
+    }
+    .category-menu--item{
+        background-color: transparent;
+        box-shadow: none ;
+        font-size : 1rem;
+    }
+    .category-menu--item>div{
+        font-size : 1rem;
+    }
+    .category-menu--item-logo{
+        width:4rem;
+        height:4rem;
+        border-radius: 50%;
+        box-shadow: 0 1px 6px 0 rgba(0,0,0,.1);
+        padding-top : 1rem;
+        padding-bottom: 1rem;
+        background-color: #fff;
+        margin-bottom : 0.3rem;
+    }
+    .category-menu--item-logo>img{
+        width : 20px;
+        height : 20px;
+    }
+    .card-advertisement{
+        width : 100% !important;
+        min-height : 150px;
+        aspect-ratio: 10/1;
+        margin : 0 0 1.2rem 0 !important;
+    }
+    .card-advertisement--img-wrapper{
+        width : 12rem !important; 
+        height : 100% !important;
+        float:right;
+    }
+    .card-advertisement--title{
+        padding-right : 1rem;
+        margin-top :0;
+    }
+    .card-advertisement--info{
+        width : calc(100% - 120px) !important;
+        padding-right : 1rem;
+    }
+    .card-advertisement--info>*{
+        margin:0 !important;
+    }
+    .card-advertisement--company-logo-wrapper{
+        margin-top : -1.5rem;
+        margin-left : 1rem;
+    }
+    .footer{
+        margin-bottom : 5rem;
+    }
+    .footer--social-networks-menu{
+        float : none;
+        text-align: center;
+    }
+    .copy-right-text{
+        text-align : center;
+    }
+}
+@media only screen and (max-width:380px){
+    .fs-3,
+    .search-form--cities-btn,
+    .search-form--input{
+        font-size : 1rem;
+    }
+    .fs-2{
+        font-size : 1.3rem;
+    }
+    .card-advertisement--title .card-advertisement--company-logo-wrapper{
+        display: none;
+    }
+    .popup{
+        width : 100%;
+        min-width :100%;
+        height : 100vh;
+    }
+}

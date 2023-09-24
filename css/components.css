@@ -1,0 +1,73 @@
+.container{
+    max-width : 1002px;
+    margin:auto;
+    padding-right : 1rem;
+    padding-left : 1rem;
+}
+.hover--yellow-color,
+.hover--black-color{
+    transition: color 0.3s;
+}
+.hover--yellow-color:hover{
+    color : var(--text-color--hover);
+}
+.hover--black-color:hover{
+    color : var(--text-color--primary);
+}
+.btn{
+    background-color: transparent;
+    font-size : 1.2rem;
+    padding : 0.5rem 0.8rem;
+    border-radius : 2rem;
+}
+.plus-icon{
+    width : 1.8rem;
+    height: 1.8rem;
+    background-color: var(--gray-02);
+}
+.plus-icon::after,
+.plus-icon::before{
+    content : "";
+    position : absolute;
+    background-color : #fff;
+    border-radius : 1rem;
+    top : 50%;
+    left : 50%;
+    transform : translate(-50%,-50%);
+}
+.plus-icon::after{
+    height : 1.3rem;
+    width : 0.2rem;
+}
+.plus-icon::before{
+    width : 1.3rem;
+    height : 0.2rem;
+}
+.close-icon{
+    width : 1.6rem;
+    height : 1.6rem;
+    position : relative;
+    background-color: var(--gray-04);
+}
+.close-icon::after,
+.close-icon::before{
+    content :"";
+    width :0.15rem;
+    height : 1rem;
+    position: absolute;
+    top : 50%;
+    left : 0.7rem;
+    background-color: #fff;
+}
+.close-icon::after{
+    transform: translateY(-50%) rotate(45deg);
+}
+.close-icon::before{
+    transform: translateY(-50%) rotate(-45deg);
+}
+.multiline-ellipses{
+    display: -webkit-box;   
+    -webkit-line-clamp: 2;   
+    -webkit-box-orient: vertical;     
+    overflow: hidden; 
+}

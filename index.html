@@ -1,0 +1,610 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="images/sheypor.png">
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <title>شیپور - نیازمندی های رایگان خرید و فروش ، استخدام و خدمات</title>
+</head>
+
+<body>
+    <header class="header small-shadow w-100">
+        <nav class="navbar">
+            <div class="menu-wrapper bg-gray-05">
+                <ul class="menu container clearfix fs-0">
+                    <li class="menu--item d-inline-block fs-3">
+                        <a href="#" class="menu--link d-block color-gray-02 hover--yellow-color py-5">
+                            <div class="menu--link--icon-wrapper mx-auto d-none d-block-768px ">
+                                <img src="images/sheypor.png" alt="sheypor-icon" width="20" height="20" />
+                            </div>
+                            <span class="d-block-768px text-center">آگهی ها</span>
+                        </a>
+                    </li>
+                    <li class="menu--item position-relative d-inline-block fs-3 d-none-768px">
+                        <a href="#" class="menu--link d-block color-gray-02 hover--yellow-color py-5">
+                            پشتیبانی
+                        </a>
+                        <ul class="support-menu d-none position-absolute bg-white rounded-5px">
+                            <li class="support-menu--item">
+                                <a href="#" class="support-menu--link d-block color-gray-02 hover--yellow-color">راهنما
+                                    و پشتیبانی</a>
+                            </li>
+                            <li class="support-menu--item">
+                                <a href="#" class="support-menu--link d-block color-gray-02 hover--yellow-color">تماس با
+                                    پشتیبانی</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="menu--item d-none fs-3 d-inline-block-768px">
+                        <a href="#" class="menu--link d-block color-gray-02 py-5">
+                            <div class="menu--link--icon-wrapper mx-auto d-none d-block-768px"><img
+                                    class="vertical-middle d-block-768px" src="images/star.svg" alt="star-icon" /></div>
+                            <span class="d-block-768px text-center">پسندیده ها</span>
+                        </a>
+                    </li>
+                    <li class="menu--item d-none fs-3 d-inline-block-768px">
+                        <a href="#" class="menu--link d-block color-gray-02 py-5">
+                            <div class="menu--link--icon-wrapper mx-auto d-none d-block-768px">
+                                <span
+                                    class="plus-icon d-inline-block position-relative rounded-50per d-block-768px"></span>
+                            </div>
+                            <span class="d-block-768px text-center">ثبت آگهی</span>
+                        </a>
+                    </li>
+                    <li class="menu--item position-relative float-left fs-3">
+                        <a href="#" class="menu--link d-block color-gray-02 hover--yellow-color dir-ltr py-5">
+                            <div class="menu--link--icon-wrapper mx-auto d-inline-block d-block-768px">
+                                <img class="vertical-middle d-block-768px" src="images/user.svg" alt="user" width="20"
+                                    height="20" />
+                            </div>
+                            <span class="d-block-768px text-center">حساب من</span>
+                        </a>
+                        <ul
+                            class="my-account-menu d-none position-absolute bg-white small-shadow d-none-768px rounded-5px">
+                            <li class="my-account-menu--item">
+                                <a href="#" class="my-account-menu--link d-block color-gray-02 hover--yellow-color">ورود
+                                    / ثبت نام</a>
+                            </li>
+                            <li class="my-account-menu--item">
+                                <a href="#"
+                                    class="my-account-menu--link d-block color-gray-02 hover--yellow-color">پسندیده
+                                    ها</a>
+                            </li>
+                            <li class="my-account-menu--item">
+                                <a href="#" class="my-account-menu--link d-block color-gray-02 hover--yellow-color">آگهی
+                                    های من</a>
+                            </li>
+                            <li class="my-account-menu--item">
+                                <a href="#"
+                                    class="my-account-menu--link d-block color-gray-02 hover--yellow-color">خریدهای
+                                    من</a>
+                            </li>
+                            <li class="my-account-menu--item">
+                                <a href="#"
+                                    class="my-account-menu--link d-block color-gray-02 hover--yellow-color">مدیریت سفارش
+                                    ها</a>
+                            </li>
+                            <li class="my-account-menu--item">
+                                <a href="#"
+                                    class="my-account-menu--link d-block color-gray-02 hover--yellow-color">جستجوهای
+                                    من</a>
+                            </li>
+                            <li class="my-account-menu--item">
+                                <a href="#" class="my-account-menu--link d-block color-gray-02 hover--yellow-color">چت
+                                    های من</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="menu--item float-left fs-3">
+                        <a href="#" class="menu--link d-block color-gray-02 hover--yellow-color dir-ltr py-5">
+                            <div class="menu--link--icon-wrapper mx-auto d-inline-block d-block-768px">
+                                <svg class="chat-svg vertical-middle d-block-768px" width="20px" height="20px"
+                                    viewBox="0 0 24 24" fill="var(--gray-02)" xmlns="http://www.w3.org/2000/svg">
+                                    <g id="Communication / Chat_Dots">
+                                        <path id="Vector"
+                                            d="M5.59961 19.9203L7.12357 18.7012L7.13478 18.6926C7.45249 18.4384 7.61281 18.3101 7.79168 18.2188C7.95216 18.1368 8.12328 18.0771 8.2998 18.0408C8.49877 18 8.70603 18 9.12207 18H17.8031C18.921 18 19.4806 18 19.908 17.7822C20.2843 17.5905 20.5905 17.2842 20.7822 16.9079C21 16.4805 21 15.9215 21 14.8036V7.19691C21 6.07899 21 5.5192 20.7822 5.0918C20.5905 4.71547 20.2837 4.40973 19.9074 4.21799C19.4796 4 18.9203 4 17.8002 4H6.2002C5.08009 4 4.51962 4 4.0918 4.21799C3.71547 4.40973 3.40973 4.71547 3.21799 5.0918C3 5.51962 3 6.08009 3 7.2002V18.6712C3 19.7369 3 20.2696 3.21846 20.5433C3.40845 20.7813 3.69644 20.9198 4.00098 20.9195C4.35115 20.9191 4.76744 20.5861 5.59961 19.9203Z" />
+                                    </g>
+                                </svg>
+                            </div>
+                            <span class="d-none d-block-768px text-center">پیام ها</span>
+                            <span class="d-none-768px">چت های من</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="bg-white d-none-768px">
+                <div class="container clearfix">
+                    <a href="#" class="float-right">
+                        <img class="logo-img vertical-middle my-5" src="images/logo.png" alt="sheypor-logo" />
+                    </a>
+                    <a href="#" class="btn float-left fw-bold text-center advertisement-registration-btn bg-blue my-5">
+                        <span class="plus-icon d-inline-block position-relative rounded-50per bg-blue"></span>
+                        <span>ثبت آگهی رایگان</span>
+                    </a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main class="main container main-popup-wrapper">
+        <h1 class="fs-1 fw-bold lh-lg d-none-768px">نیازمندیهای رایگان شیپور</h1>
+        <p class="fs-2 fw-bold lh-lg d-none-768px">خرید و فروش خودرو، املاک، آپارتمان، گوشی موبایل، تبلت، لوازم خانگی،
+            لوازم دست دوم، استخدام و هر چه فکر کنید!</p>
+        <div class="responsive-menu-search-form-wrapper position-relative bg-white small-shadow rounded-5px fs-0">
+            <span
+                class="responsive-menu--menu-icon d-none d-inline-block-768px vertical-top text-center cursor-pointer">
+                <img class="vertical-middle" src="images/vertical-menu.svg" alt="vertical-menu" />
+            </span>
+            <div class="responsive-menu-wrapper d-none">
+                <div class="responsive-menu-wrapper--go-back-element clsoe-responsive-menu cursor-pointer small-shadow fs-3">
+                    <img class="vertical-middle" src="images/right-arrow.svg" alt="right-arrow" />
+                    <span class="fw-bold">بازگشت</span>
+                </div>
+                <ul class="responsive-menu">
+                    <li class="responsive-menu--item">
+                        <svg class="vertical-bottom" width="40px" height="40px" viewBox="0 0 24 24"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12ZM11.9999 6C9.79077 6 7.99991 7.79086 7.99991 10C7.99991 12.2091 9.79077 14 11.9999 14C14.209 14 15.9999 12.2091 15.9999 10C15.9999 7.79086 14.209 6 11.9999 6ZM17.1115 15.9974C17.8693 16.4854 17.8323 17.5491 17.1422 18.1288C15.7517 19.2966 13.9581 20 12.0001 20C10.0551 20 8.27215 19.3059 6.88556 18.1518C6.18931 17.5723 6.15242 16.5032 6.91351 16.012C7.15044 15.8591 7.40846 15.7251 7.68849 15.6097C8.81516 15.1452 10.2542 15 12 15C13.7546 15 15.2018 15.1359 16.3314 15.5954C16.6136 15.7102 16.8734 15.8441 17.1115 15.9974Z"
+                                fill="var(--gray-03)" />
+                        </svg>
+                        <a class="responsive-menu--link btn color-blue d-inline-block vertical-bottom fs-3" href="#">
+                            ورود / ثبت نام
+                        </a>
+                    </li>
+                    <li class="responsive-menu--item">
+                        <a class="responsive-menu--link color-primary d-block fs-3" href="#">
+                            <svg class="vertical-middle" width="20px" height="20px" viewBox="0 0 24 24" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M6.5 20V11H3L12 5L21 11H17.5V20H14.5V16.5C14.5 15.6716 13.8284 15 13 15H11C10.1716 15 9.5 15.6716 9.5 16.5V20H6.5Z"
+                                    fill="var(--blue)" stroke="var(--blue)" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                            </svg>
+                            <span >همه آگهی ها</span>
+                        </a>
+                    </li>
+                    <li class="responsive-menu--item">
+                        <a class="responsive-menu--link fs-3 d-block color-primary" href="#">
+                            <span class="responsive-menu--plus-icon plus-icon d-inline-block vertical-middle position-relative rounded-50per"></span>
+                            <span>ثبت آگهی رایگان</span>
+                        </a>
+                    </li>
+                    <li class="responsive-menu--item">
+                        <a class="responsive-menu--link d-block color-primary fs-3" href="#">
+                            <svg class="vertical-middle" fill="var(--text-color--primary)" width="20px" height="20px" viewBox="0 0 32 32"
+                                version="1.1" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M3.488 13.184l6.272 6.112-1.472 8.608 7.712-4.064 7.712 4.064-1.472-8.608 6.272-6.112-8.64-1.248-3.872-7.808-3.872 7.808z">
+                                </path>
+                            </svg>
+                            <span>پسندیده ها</span>
+                        </a>
+                    </li>
+                    <li class="responsive-menu--item">
+                        <a class="responsive-menu--link color-primary d-block fs-3" href="#">
+                            <svg class="vertical-middle" width="20px" height="20px" viewBox="0 0 24 24"  xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M4 5C3.44772 5 3 5.44772 3 6C3 6.55228 3.44772 7 4 7H20C20.5523 7 21 6.55228 21 6C21 5.44772 20.5523 5 20 5H4ZM3 12C3 11.4477 3.44772 11 4 11H20C20.5523 11 21 11.4477 21 12C21 12.5523 20.5523 13 20 13H4C3.44772 13 3 12.5523 3 12ZM3 18C3 17.4477 3.44772 17 4 17H20C20.5523 17 21 17.4477 21 18C21 18.5523 20.5523 19 20 19H4C3.44772 19 3 18.5523 3 18Z" fill="var(--text-color--primary)"/>
+                            </svg>
+                            <span>آگهی های من</span>
+                        </a>
+                    </li>
+                    <li class="responsive-menu--item">
+                        <a class="responsive-menu--link color-primary d-block fs-3" href="#">
+                            <svg class="vertical-middle" width="20px" height="20px" viewBox="0 0 24 24"
+                                xmlns="http://www.w3.org/2000/svg" fill="var(--text-color--primary)">
+                                <g>
+                                    <path fill="none" d="M0 0h24v24H0z" />
+                                    <path
+                                        d="M15.366 3.438L18.577 9H22v2h-1.167l-.757 9.083a1 1 0 0 1-.996.917H4.92a1 1 0 0 1-.996-.917L3.166 11H2V9h3.422l3.212-5.562 1.732 1L7.732 9h8.535l-2.633-4.562 1.732-1zM13 13h-2v4h2v-4zm-4 0H7v4h2v-4zm8 0h-2v4h2v-4z" />
+                                </g>
+                            </svg>
+                            <span>خریدهای من</span>
+                        </a>
+                    </li>
+                    <li class="responsive-menu--item">
+                        <a class="responsive-menu--link color-primary d-block fs-3" href="#">
+                            <svg class="vertical-middle" xmlns="http://www.w3.org/2000/svg"
+                                fill="var(--text-color--primary)" width="20px" height="20px" viewBox="0 0 24 24">
+                                <g fill-rule="evenodd">
+                                    <path
+                                        d="M5 19h14V5H5v14zM19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2z" />
+                                    <path
+                                        d="M6.287 8.62H17.11V6.437H6.288v2.18zm0 4.36H17.11V10.8H6.288v2.18zm0 4.363h6.494v-2.18H6.288v2.18z" />
+                                </g>
+                            </svg>
+                            <span>مدیریت سفارش ها</span>
+                        </a>
+                    </li>
+                    <li class="responsive-menu--item">
+                        <a class="responsive-menu--link color-primary d-block fs-3" href="#">
+                            <svg class="vertical-middle" height="20px" width="20px" version="1.1" id="_x32_"
+                                xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                viewBox="0 0 512 512" xml:space="preserve">
+                                <g>
+                                    <path fill="var(--text-color--primary)" d="M193.499,459.298c5.237,30.54,31.518,52.702,62.49,52.702c30.98,0,57.269-22.162,62.506-52.702l0.32-1.86
+                                		H193.179L193.499,459.298z" />
+                                    <path fill="var(--text-color--primary)" d="M469.782,371.98c-5.126-5.128-10.349-9.464-15.402-13.661c-21.252-17.648-39.608-32.888-39.608-96.168v-50.194
+                                		c0-73.808-51.858-138.572-123.61-154.81c2.876-5.64,4.334-11.568,4.334-17.655C295.496,17.718,277.777,0,255.995,0
+                                		c-21.776,0-39.492,17.718-39.492,39.492c0,6.091,1.456,12.018,4.334,17.655c-71.755,16.238-123.61,81.002-123.61,154.81v50.194
+                                		c0,63.28-18.356,78.521-39.608,96.168c-5.052,4.196-10.276,8.533-15.402,13.661l-0.466,0.466v49.798h428.496v-49.798
+                                		L469.782,371.98z" />
+                                </g>
+                            </svg>
+                            <span>جستجوهای من</span>
+                        </a>
+                    </li>
+                    <li class="responsive-menu--item">
+                        <a class="responsive-menu--link color-primary d-block fs-3" href="#">
+                            <svg class="vertical-middle" width="20px" height="20px" viewBox="0 0 24 24"
+                                fill="var(--text-color--primary)" xmlns="http://www.w3.org/2000/svg">
+                                <g id="Communication / Chat_Dots">
+                                    <path id="Vector"
+                                        d="M5.59961 19.9203L7.12357 18.7012L7.13478 18.6926C7.45249 18.4384 7.61281 18.3101 7.79168 18.2188C7.95216 18.1368 8.12328 18.0771 8.2998 18.0408C8.49877 18 8.70603 18 9.12207 18H17.8031C18.921 18 19.4806 18 19.908 17.7822C20.2843 17.5905 20.5905 17.2842 20.7822 16.9079C21 16.4805 21 15.9215 21 14.8036V7.19691C21 6.07899 21 5.5192 20.7822 5.0918C20.5905 4.71547 20.2837 4.40973 19.9074 4.21799C19.4796 4 18.9203 4 17.8002 4H6.2002C5.08009 4 4.51962 4 4.0918 4.21799C3.71547 4.40973 3.40973 4.71547 3.21799 5.0918C3 5.51962 3 6.08009 3 7.2002V18.6712C3 19.7369 3 20.2696 3.21846 20.5433C3.40845 20.7813 3.69644 20.9198 4.00098 20.9195C4.35115 20.9191 4.76744 20.5861 5.59961 19.9203Z" />
+                                </g>
+                            </svg>
+                            <span>چت های من</span>
+                        </a>
+                    </li>
+                    <li class="responsive-menu--item">
+                        <a class="responsive-menu--link color-primary d-block fs-3" href="#">
+                            <svg class="x vertical-middle" width="20px" height="20px" viewBox="0 0 24 24"
+                                 xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12ZM11 15C11 13.1787 11.9421 12.4566 12.7704 11.8217C13.4202 11.3236 14 10.8792 14 10C14 8.9 13.1 8 12 8C10.9 8 10 8.9 10 10H8C8 7.79 9.79 6 12 6C14.21 6 16 7.79 16 10C16 11.2829 15.21 11.9733 14.4408 12.6455C13.711 13.2833 13 13.9046 13 15H11ZM13 16.5V18.5H11V16.5H13Z"
+                                    fill="var(--text-color--primary)" />
+                            </svg>
+                            <span>تماس با پشتیبانی</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="search-form-wrapper position-relative d-inline-block-768px w-100 vertical-top">
+                <form class="search-form  rounded-5px">
+                    <div
+                        class="search-form--input-wrapper search-form--child-element-hover d-inline-block position-relative vertical-top rounded-5px">
+                        <input type="search" class="search-form--input rounded-5px p-10" placeholder="جستجو..." />
+                        <button type="reset"
+                            class="search-form--reset-btn position-absolute close-icon rounded-50per cursor-pointer d-none"></button>
+                    </div>
+                    <button type="button"
+                        class="search-form--all-groups-btn search-form--child-element-hover bg-white p-10 position-relative cursor-pointer d-none-768px">همه
+                        گروه ها</button>
+                    <button type="button"
+                        class="search-form--cities-btn search-form--child-element-hover bg-white p-10 position-relative cursor-pointer">
+                        <span>همه ایران</span>
+                        <img class="vertical-middle d-none d-inline-block-768px" src="images/location.svg"
+                            alt="location-icon">
+                    </button>
+                    <button class="search-form--search-btn p-10 rounded-5px cursor-pointer fw-bold d-none-768px">
+                        <img class="vertical-middle" src="images/search.svg" alt="search" />
+                        <span>جستجو</span>
+                    </button>
+                </form>
+            </div>
+        </div>
+        <ul class="category-menu fs-0">
+            <li
+                class="category-menu--item category-menu--item-with-subset-menu bg-white d-inline-block vertical-top rounded-5px small-shadow p-10">
+                <div class="py-5 fs-3">
+                    <a href="#" class="category-menu--link d-inline-block d-block-992px">
+                        <div class="category-menu--item-logo d-inline-block">
+                            <img src="images/category_logo-0.svg" alt="category_logo-0" />
+                        </div>
+                        <div class="d-inline-block d-block-992px">
+                            <span class="category-name d-block color-primary">وسایل نقلیه</span>
+                            <span class="d-block color-gray-02 d-none-768px">(۲۰۰,۳۰۵)</span>
+                        </div>
+                    </a>
+                    <span id="وسایل نقلیه"
+                        class="view-category-items float-left color-blue hover--yellow-color cursor-pointer d-none-992px">نمایش
+                        همه</span>
+                </div>
+                <ul class="subset-menu d-none-992px">
+                    <li class="subset-menu--item d-inline-block btn px-5 mx-5"><a
+                            class="subset-menu--link color-gray-02 hover--yellow-color fs-3" href="#">خودرو</a></li>
+                    <li class="subset-menu--item d-inline-block btn px-5 mx-5"><a
+                            class="subset-menu--link color-gray-02 hover--yellow-color fs-3" href="#">مزایده خودرو</a>
+                    </li>
+                    <li class="subset-menu--item d-inline-block btn px-5 mx-5"><a
+                            class="subset-menu--link color-gray-02 hover--yellow-color fs-3" href="#">موتور سیکلت</a>
+                    </li>
+                    <li class="subset-menu--item d-inline-block btn px-5 mx-5"><a
+                            class="subset-menu--link color-gray-02 hover--yellow-color fs-3" href="#">خودرو کلاسیک</a>
+                    </li>
+                    <li class="subset-menu--item d-inline-block btn px-5 mx-5"><a
+                            class="subset-menu--link color-gray-02 hover--yellow-color fs-3" href="#">سنگین ونیمه
+                            سنگین</a></li>
+                </ul>
+            </li>
+            <li
+                class="category-menu--item category-menu--item-with-subset-menu bg-white d-inline-block vertical-top rounded-5px small-shadow p-10">
+                <div class="py-5 fs-3">
+                    <a href="#" class="category-menu--link d-inline-block d-block-992px">
+                        <div class="category-menu--item-logo d-inline-block"><img src="images/category_logo-1.svg"
+                                alt="category_logo-1" /></div>
+                        <div class="d-inline-block d-block-992px">
+                            <span class="category-name d-block color-primary">املاک</span>
+                            <span class="d-block color-gray-02 d-none-768px">(۳۲۶,۵۳۱)</span>
+                        </div>
+                    </a>
+                    <span id="املاک"
+                        class="view-category-items float-left color-blue hover--yellow-color cursor-pointer d-none-992px">نمایش
+                        همه</span>
+                </div>
+                <ul class="subset-menu d-none-992px">
+                    <li class="subset-menu--item d-inline-block btn px-5 mx-5"><a
+                            class="subset-menu--link color-gray-02 hover--yellow-color fs-3" href="#">خرید و فروش
+                            ویلا</a></li>
+                    <li class="subset-menu--item d-inline-block btn px-5 mx-5"><a
+                            class="subset-menu--link color-gray-02 hover--yellow-color fs-3" href="#">رهن و اجاره خانه و
+                            آپارتمان</a></li>
+                    <li class="subset-menu--item d-inline-block btn px-5 mx-5"><a
+                            class="subset-menu--link color-gray-02 hover--yellow-color fs-3" href="#">خرید و فروش خانه و
+                            آپارتمان</a></li>
+                    <li class="subset-menu--item d-inline-block btn px-5 mx-5"><a
+                            class="subset-menu--link color-gray-02 hover--yellow-color fs-3" href="#">اجاره کوتاه مدت
+                            ویلا ، سوئیت</a></li>
+                    <li class="subset-menu--item d-inline-block btn px-5 mx-5"><a
+                            class="subset-menu--link color-gray-02 hover--yellow-color fs-3" href="#">رهن و اجاره اداری
+                            ، تجاری و صنعتی</a></li>
+                </ul>
+            </li>
+            <li
+                class="category-menu--item category-menu--item-with-subset-menu bg-white d-inline-block vertical-top rounded-5px small-shadow p-10">
+                <div class="py-5 fs-3">
+                    <a href="#" class="category-menu--link d-inline-block d-block-992px">
+                        <div class="category-menu--item-logo d-inline-block">
+                            <img src="images/category_logo-2.svg" alt="category_logo-2" />
+                        </div>
+                        <div class="d-inline-block d-block-992px">
+                            <span class="category-name d-block color-primary">استخدام</span>
+                            <span class="d-block color-gray-02 d-none-768px">(35,282)</span>
+                        </div>
+                    </a>
+                    <span id="استخدام"
+                        class="view-category-items float-left color-blue hover--yellow-color cursor-pointer d-none-992px">نمایش
+                        همه</span>
+                </div>
+                <ul class="subset-menu d-none-992px">
+                    <li class="subset-menu--item d-inline-block btn px-5 mx-5"><a
+                            class="subset-menu--link color-gray-02 hover--yellow-color fs-3" href="#">آرایشگر |
+                            اپیلاسیون کار</a></li>
+                    <li class="subset-menu--item d-inline-block btn px-5 mx-5"><a
+                            class="subset-menu--link color-gray-02 hover--yellow-color fs-3" href="#">آشپز و مشاغل
+                            مرتبط</a></li>
+                    <li class="subset-menu--item d-inline-block btn px-5 mx-5"><a
+                            class="subset-menu--link color-gray-02 hover--yellow-color fs-3" href="#">انباردار</a></li>
+                    <li class="subset-menu--item d-inline-block btn px-5 mx-5"><a
+                            class="subset-menu--link color-gray-02 hover--yellow-color fs-3" href="#">بازاریاب |
+                            ویزیتور</a></li>
+                    <li class="subset-menu--item d-inline-block btn px-5 mx-5"><a
+                            class="subset-menu--link color-gray-02 hover--yellow-color fs-3" href="#">برنامه نویس |
+                            کارشناس شبکه</a></li>
+                </ul>
+            </li>
+            <li
+                class="category-menu--item category-menu--item-with-subset-menu bg-white d-inline-block vertical-top rounded-5px small-shadow p-10">
+                <div class="py-5 fs-3">
+                    <a href="#" class="category-menu--link d-inline-block d-block-992px">
+                        <div class="category-menu--item-logo d-inline-block">
+                            <img src="images/category_logo-3.svg" alt="category_logo-3" />
+                        </div>
+                        <div class="d-inline-block d-block-992px">
+                            <span class="category-name d-block color-primary">خدمات و کسب و کار</span>
+                            <span class="d-block color-gray-02 d-none-768px">(84,294)</span>
+                        </div>
+                    </a>
+                    <span id="خدمات و کسب و کار"
+                        class="view-category-items float-left color-blue hover--yellow-color cursor-pointer d-none-992px">نمایش
+                        همه</span>
+                </div>
+                <ul class="subset-menu d-none-992px">
+                    <li class="subset-menu--item d-inline-block btn px-5 mx-5"><a
+                            class="subset-menu--link color-gray-02 hover--yellow-color fs-3" href="#">آرایشگری و
+                            زیبایی</a></li>
+                    <li class="subset-menu--item d-inline-block btn px-5 mx-5"><a
+                            class="subset-menu--link color-gray-02 hover--yellow-color fs-3" href="#">آموزش</a></li>
+                    <li class="subset-menu--item d-inline-block btn px-5 mx-5"><a
+                            class="subset-menu--link color-gray-02 hover--yellow-color fs-3" href="#">اجاره لوازم</a>
+                    </li>
+                    <li class="subset-menu--item d-inline-block btn px-5 mx-5"><a
+                            class="subset-menu--link color-gray-02 hover--yellow-color fs-3" href="#">اسباب کشی و حمل و
+                            نقل</a></li>
+                    <li class="subset-menu--item d-inline-block btn px-5 mx-5"><a
+                            class="subset-menu--link color-gray-02 hover--yellow-color fs-3" href="#">اینترنت ، رایانه و
+                            موبایل</a></li>
+                </ul>
+            </li>
+            <li
+                class="category-menu--item category-menu--item-without-subset-menu bg-white d-inline-block vertical-top rounded-5px small-shadow p-10 fs-3">
+                <a href="#" class="category-menu--link d-block text-center color-gray-02">
+                    <div class="category-menu--item-logo d-inline-block">
+                        <img src="images/category_logo-4.svg" alt="category_logo-4" />
+                    </div>
+                    <div>
+                        <span class="category-name d-block text-center">لوازم خانگی</span>
+                        <span class="d-block text-center d-none-768px">(118,565)</span>
+                    </div>
+                </a>
+            </li>
+            <li
+                class="category-menu--item category-menu--item-without-subset-menu bg-white d-inline-block vertical-top rounded-5px small-shadow p-10 fs-3">
+                <a href="#" class="category-menu--link d-block text-center color-gray-02">
+                    <div class="category-menu--item-logo d-inline-block">
+                        <img src="images/category_logo-5.svg" alt="category_logo-5" />
+                    </div>
+                    <div>
+                        <span class="category-name d-block text-center">ورزش فرهنگ فراغت</span>
+                        <span class="d-block text-center d-none-768px">(81,116)</span>
+                    </div>
+                </a>
+            </li>
+            <li
+                class="category-menu--item category-menu--item-without-subset-menu bg-white d-inline-block vertical-top rounded-5px small-shadow p-10 fs-3">
+                <a href="#" class="category-menu--link d-block text-center color-gray-02">
+                    <div class="category-menu--item-logo d-inline-block">
+                        <img src="images/category_logo-6.svg" alt="category_logo-6" />
+                    </div>
+                    <div>
+                        <span class="category-name d-block text-center">لوازم الکترونیکی</span>
+                        <span class="d-block text-center d-none-768px">(33,217)</span>
+                    </div>
+                </a>
+            </li>
+            <li
+                class="category-menu--item category-menu--item-without-subset-menu bg-white d-inline-block vertical-top rounded-5px small-shadow p-10 fs-3">
+                <a href="#" class="category-menu--link d-block text-center color-gray-02">
+                    <div class="category-menu--item-logo d-inline-block">
+                        <img src="images/category_logo-7.svg" alt="category_logo-7" />
+                    </div>
+                    <div>
+                        <span class="category-name d-block text-center">صنعتی ، اداری و تجاری</span>
+                        <span class="d-block text-center d-none-768px">(52,302)</span>
+                    </div>
+                </a>
+            </li>
+            <li
+                class="category-menu--item category-menu--item-without-subset-menu bg-white d-inline-block vertical-top rounded-5px small-shadow p-10 fs-3">
+                <a href="#" class="category-menu--link d-block text-center color-gray-02">
+                    <div class="category-menu--item-logo d-inline-block">
+                        <img src="images/category_logo-8.svg" alt="category_logo-8" />
+                    </div>
+                    <div>
+                        <span class="category-name d-block text-center">موبایل ، تبلت و لوازم</span>
+                        <span class="d-block text-center d-none-768px">(25,929)</span>
+                    </div>
+                </a>
+            </li>
+            <li
+                class="category-menu--item category-menu--item-without-subset-menu bg-white d-inline-block vertical-top rounded-5px small-shadow p-10 fs-3">
+                <a href="#" class="category-menu--link d-block text-center color-gray-02">
+                    <div class="category-menu--item-logo d-inline-block">
+                        <img src="images/category_logo-9.svg" alt="category_logo-9" />
+                    </div>
+                    <div>
+                        <span class="category-name d-block text-center">لوازم شخصی</span>
+                        <span class="d-block text-center d-none-768px">(52,302)</span>
+                    </div>
+                </a>
+            </li>
+        </ul>
+        <div class="articles-wrapper fs-0">
+            <!-- loaded data in js -->
+        </div>
+        <div class="text-center">
+            <a href="#" class="view-all-advertisement d-inline-block btn fw-bold color-blue hover--yellow-color">نمایش
+                همه آگهی ها</a>
+        </div>
+    </main>
+    <footer class="footer bg-gray-05 fs-0">
+        <section class="footer--first-section container clearfix">
+            <section class="d-inline-block vertical-top d-block-992px">
+                <div class="footer--menu-wrapper d-inline-block vertical-top fs-3 d-block-992px">
+                    <h4 class="footer--menu-wrapper--title">شیپور</h4>
+                    <ul class="footer--menu">
+                        <li class="footer--menu--item"><a href="#"
+                                class="footer--menu--link color-gray-01 hover--black-color d-block">درباره شیپور</a>
+                        </li>
+                        <li class="footer--menu--item"><a href="#"
+                                class="footer--menu--link color-gray-01 hover--black-color d-block">بلاگ</a></li>
+                        <li class="footer--menu--item"><a href="#"
+                                class="footer--menu--link color-gray-01 hover--black-color d-block">نقشه سایت</a></li>
+                        <li class="footer--menu--item"><a href="#"
+                                class="footer--menu--link color-gray-01 hover--black-color d-block">فرصت های شغلی</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer--menu-wrapper d-inline-block vertical-top fs-3 d-block-992px">
+                    <h4 class="footer--menu-wrapper--title">راهنمای مشتریان</h4>
+                    <ul class="footer--menu">
+                        <li class="footer--menu--item"><a href="#"
+                                class="footer--menu--link color-gray-01 hover--black-color d-block">سوالات متداول</a>
+                        </li>
+                        <li class="footer--menu--item"><a href="#"
+                                class="footer--menu--link color-gray-01 hover--black-color d-block">تماس با پشتیبانی</a>
+                        </li>
+                        <li class="footer--menu--item"><a href="#"
+                                class="footer--menu--link color-gray-01 hover--black-color d-block">راهنما و
+                                پشتیبانی</a></li>
+                        <li class="footer--menu--item"><a href="#"
+                                class="footer--menu--link color-gray-01 hover--black-color d-block">قوانین و مقررات</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer--menu-wrapper d-inline-block vertical-top fs-3 d-block-992px">
+                    <h4 class="footer--menu-wrapper--title">خدمات</h4>
+                    <ul class="footer--menu">
+                        <li class="footer--menu--item"><a href="#"
+                                class="footer--menu--link color-gray-01 hover--black-color d-block">همه فروشگاه ها</a>
+                        </li>
+                        <li class="footer--menu--item"><a href="#"
+                                class="footer--menu--link color-gray-01 hover--black-color d-block">همه مشاوران</a></li>
+                        <li class="footer--menu--item"><a href="#"
+                                class="footer--menu--link color-gray-01 hover--black-color d-block">دانلود آلونک</a>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <section class="footer--signs-app-wrapper float-left dir-ltr">
+                <div class="footer--apps-wrapper d-inline-block vertical-bottom d-block-992px">
+                    <div class="footer--app-wrapper bg-white mx-5 rounded-5px">
+                        <img class="float-left" src="images/download.jpg" alt="download-icon" width="20" />
+                        <div class="float-right">
+                            <span class="d-block fs-4">اپلیکیشن اندروید</span>
+                            <span class="d-block fs-3 fw-bold">دانلود مستقیم</span>
+                        </div>
+                    </div>
+                    <div class="footer--app-wrapper bg-white mx-5 rounded-5px">
+                        <img class="float-left" src="images/apple.jpg" alt="apple-icon" width="20" />
+                        <div class="float-right">
+                            <span class="d-block fs-4">اپلیکیشن ios</span>
+                            <span class="d-block fs-3 fw-bold">سیب آپ</span>
+                        </div>
+                    </div>
+                    <div class="footer--app-wrapper bg-white mx-5 rounded-5px">
+                        <img class="float-left" src="images/horizontal-menu.svg" alt="horizontal-menu" width="20" />
+                        <span class="float-right fs-3 fw-bold">همه مارکت ها</span>
+                    </div>
+                </div>
+                <div class="d-inline-block vertical-bottom d-block-992px text-center">
+                    <img src="images/ecunion.png" alt="ecunion" width="80" />
+                    <img src="images/eNAMAD.png" alt="enamad" width="80" />
+                    <img src="images/samandehi.png" alt="samandehi" width="80" />
+                </div>
+            </section>
+        </section>
+        <section class="footer--second-section">
+            <div class="container clearfix">
+                <ul class="footer--social-networks-menu float-left">
+                    <li class="footer--social-networks-menu--item d-inline-block mx-5">
+                        <a href="#" class="footer--social-networks-menu--link">
+                            <img class="footer--social-networks-menu--item--img vertical-bottom"
+                                src="images/instagram.svg" alt="instagram-icon" />
+                        </a>
+                    </li>
+                    <li class="footer--social-networks-menu--item d-inline-block mx-5">
+                        <a href="#" class="footer--social-networks-menu--link">
+                            <img class="footer--social-networks-menu--item--img vertical-bottom"
+                                src="images/linkedin.svg" alt="linkedin-icon" />
+                        </a>
+                    </li>
+                    <li class="footer--social-networks-menu--item d-inline-block mx-5">
+                        <a href="#" class="footer--social-networks-menu--link">
+                            <img class="footer--social-networks-menu--item--img vertical-bottom"
+                                src="images/twitter.svg" alt="twitter-icon" />
+                        </a>
+                    </li>
+                </ul>
+                <p class="copy-right-text fs-3 color-gray-01 py-5">کليه حقوق اين سایت متعلق به شرکت نت تجارت اهورا
+                    (شیپور) است.</p>
+            </div>
+        </section>
+    </footer>
+    <div class="popup-wrapper"></div>
+    <script type="module" src="js/index.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,71 @@
+@font-face {
+    font-family: vazir;
+    font-weight : 400;
+    src : url('../font/vazir/Vazirmatn-FD-Light.woff2')format('woff2'), 
+    url('../font/vazir/Vazirmatn-FD-Light.ttf')format('truetype');
+}
+@font-face{
+    font-family : vazir;
+    font-weight : 700;
+    src : url('../font/vazir/Vazirmatn-FD-Medium.woff2')format('woff2'), 
+    url('../font/vazir/Vazirmatn-FD-Medium.ttf')format('truetype');
+}
+*,
+*::after,
+*::before{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root{
+    --blue : #0084ff;
+    --light-blue : #e5f2fe;
+    --text-color--hover : #fb9517;
+    --text-color--primary : #030a17;
+    --gray-01 : #62666d;
+    --gray-02 : #81858b;
+    --gray-03 : #999999;
+    --gray-04 : #d0d1d3;
+    --gray-05 : #eff0f1;
+    --gray-06 : #f9f9f9;
+}
+html{
+    scroll-behavior: smooth;
+    font-size : 62.5%;
+}
+body{
+    width : 100%;
+    font-size : 1.5rem;
+    font-family :vazir;
+    font-weight :400;
+    direction: rtl;
+    color : var(--text-color-primary);
+    background-color : var(--gray-06);
+    overflow : auto;
+}
+body.active{
+    overflow-y : hidden
+}
+ul{
+    list-style-type : none;
+}
+input,
+button {
+    font-family : vazir;
+    font-size : 1.5rem;
+    border : none;
+    outline: none;
+    color : var(--text-color--primary)
+}
+a{
+    text-decoration : none;
+    transition : color 0.3s;
+}
+/* clears the ‘X’ from Internet Explorer */
+input[type=search]::-ms-clear { display: none; width : 0; height: 0; }
+input[type=search]::-ms-reveal { display: none; width : 0; height: 0; }
+/* clears the ‘X’ from Chrome */
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration { display: none; }

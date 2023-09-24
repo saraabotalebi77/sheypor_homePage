@@ -1,0 +1,118 @@
+.popup-wrapper,
+.main-popup-wrapper::after{
+    content :"";
+    position: fixed;
+    top :0;
+    left:0;
+    width : 100vw;
+    height : 100vh;
+    pointer-events: none;
+    background-color: transparent;
+    z-index : 100;
+    transition : background-color 0.5s;
+}
+.main-popup-wrapper::after{
+    z-index : 50;
+}
+.popup-wrapper.active{
+    pointer-events: auto;
+    background-color : rgba(0,0,0,.5);
+}
+.active.main-popup-wrapper::after{
+    pointer-events: auto;
+    background-color : rgba(248, 241, 241, 0.5);
+}
+.popup{
+    width : 35%;
+    height : 70vh;
+    min-width : 380px;
+    overflow : auto;
+    background-color: #fff;
+    top :50%;
+    left :50%;
+    transform : translate(-50%,-50%);
+}
+.popup--title-wrapper{
+    margin : 2rem 2rem 0;
+}
+.popup--title{
+    font-size : 1.8rem;
+}
+.popup--close-icon{
+    background-color: transparent;    
+}
+.popup--close-icon::after,
+.popup--close-icon::before{
+    height : 1.6rem;
+    background-color : var(--gray-02)
+}
+.popup--search-form{
+    position: sticky;
+    z-index : 1;
+    position: -webkit-sticky;
+    top : 0;
+    background-color: #fff;
+    padding : 2rem 2rem 1.5rem;
+}
+.popup--search-form--input-wrapper{
+    border : 1px solid var(--gray-04);
+}
+.popup--search-form--input-wrapper:hover{
+    border-color : #b6b7ba;
+}
+.popup--search-form--input-wrapper:focus-within{
+    border-color: var(--blue);
+    box-shadow: 0 0 3px var(--blue);
+}
+.popup--search-form--input{
+    width : calc(100% - 36px);
+    font-size : 1.4rem;
+}
+.popup--search-form--input:not(:placeholder-shown) + .popup--search-form--reset-btn{
+    display: inline-block;
+}
+.popup--search-form--reset-btn{
+    margin-top : 0.2rem;
+    margin-bottom : 0.2rem;
+}
+.popup--menu--item,
+.popup--cities-menu-title{
+    border-bottom : 1px solid var(--gray-05);
+    margin-right : 3rem;
+    margin-left : 3rem;
+    padding : 0.8rem 0.5rem;
+    transition : color 0.3s;
+}
+.popup--cities-menu-title{
+    border : none;
+    margin-bottom : 0.5rem;
+}
+.popup--cities-menu-title:hover *{
+    color : var(--text-color--hover);
+    fill : var(--text-color--hover);
+}
+.popup--provinces-menu--item-1{
+    background-color: #f1f1f1;
+    color : var(--gray-02);
+    margin :0;
+    padding: 1rem 3rem;
+}
+.popup--provinces-menu--item-2::after{
+    content :"\2713";
+    position : absolute;
+    left :0.5rem;
+    top : 50%;
+    transform : translateY(-50%);
+    color : var(--blue);
+}
+.popup--provinces-menu--item::after{
+    content :"";
+    position : absolute;
+    left :0.5rem;
+    top : 50%;
+    transform : translateY(-50%) rotate(-45deg);
+    width : 0.8rem;
+    height : 0.8rem;
+    border-top : 2px solid var(--text-color--primary);
+    border-left : 2px solid var(--text-color--primary);
+}
